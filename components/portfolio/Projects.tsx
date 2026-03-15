@@ -18,15 +18,16 @@ const projects = [
   },
   {
     icon: Car,
-    title: 'AutoElite',
+    title: 'Carocar',
     subtitle: 'Site Web — Concessionnaire Automobile',
     description:
-      'Plateforme web complète pour un concessionnaire automobile. Les utilisateurs peuvent parcourir le catalogue de véhicules, consulter les fiches techniques et prendre contact. Architecture robuste avec une API back-end Java.',
+      'Site internet développé pour un concessionnaire automobile. Les utilisateurs peuvent parcourir le catalogue, consulter les fiches détaillées de chaque véhicule et envoyer des demandes de contact. Une architecture solide avec une API back-end Java.',
     tags: ['Spring Boot', 'Java', 'HTML', 'CSS', 'MySQL'],
     github: null,
     demo: null,
-    accentColor: 'text-amber-400',
-    badgeColor: 'bg-amber-400/10 border-amber-400/20 text-amber-400',
+    page: '/carocar',
+    accentColor: 'text-emerald-400',
+    badgeColor: 'bg-emerald-400/10 border-emerald-400/20 text-emerald-400',
   },
   {
     icon: LayoutDashboard,
