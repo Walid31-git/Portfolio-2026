@@ -1,31 +1,39 @@
 const skillGroups = [
   {
     category: 'Langages',
-    skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C#', 'C++', 'Dart'],
+    skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C#', 'C++', 'Dart', 'Kotlin'],
   },
   {
     category: 'Front-end',
-    skills: ['HTML', 'CSS', 'Angular', 'Flutter'],
+    skills: ['HTML', 'CSS', 'Angular', 'Flutter', 'React', 'Next.js', 'Tailwind CSS'],
   },
   {
     category: 'Back-end',
-    skills: ['PHP', 'Spring Boot', 'PL/SQL', 'Oracle APEX'],
+    skills: ['PHP', 'Spring Boot', 'PL/SQL', 'Oracle APEX', 'Node.js', 'Express'],
   },
   {
     category: 'Bases de données',
-    skills: ['MySQL', 'Oracle', 'SQL Developer'],
+    skills: ['MySQL', 'Oracle', 'SQL Developer', 'PostgreSQL', 'MongoDB', 'Redis'],
   },
   {
     category: 'Outils & Plateformes',
-    skills: ['Git', 'GitHub'],
+    skills: ['Git', 'GitHub', 'VS Code', 'Docker', 'Postman', 'Figma'],
   },
   {
     category: 'Design & Multimédia',
-    skills: ['Adobe Photoshop', 'Illustrator', 'Premiere Pro'],
+    skills: ['Adobe Photoshop', 'Illustrator', 'Premiere Pro', 'Figma', 'Blender'],
   },
   {
     category: 'Marketing',
-    skills: ['Meta Ads', 'Marketing Digital'],
+    skills: ['Meta Ads', 'Marketing Digital', 'Google Ads', 'SEO', 'Analytics'],
+  },
+  {
+    category: 'Automatisation & Workflow',
+    skills: ['N8N', 'Zapier', 'Make.com', 'IFTTT'],
+  },
+  {
+    category: 'Mobile & Développement d\'Apps',
+    skills: ['Flutter', 'React Native', 'Ionic'],
   },
 ]
 

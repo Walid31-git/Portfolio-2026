@@ -44,11 +44,9 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="/cv.pdf"
-            download
+            href="/cv"
             className="flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
           >
-            <Download size={14} />
             CV
           </a>
         </nav>
@@ -75,12 +73,10 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="/cv.pdf"
-            download
+            href="/cv"
             className="flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-semibold w-fit"
           >
-            <Download size={14} />
-            Télécharger mon CV
+            Mon CV
           </a>
         </div>
       )}

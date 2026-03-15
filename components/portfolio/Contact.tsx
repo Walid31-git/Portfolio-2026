@@ -94,15 +94,15 @@ export default function Contact() {
             <div className="bg-primary/10 border border-primary/20 rounded-xl p-6 flex items-center justify-between gap-4">
               <div>
                 <h3 className="text-foreground font-semibold mb-1">Mon CV</h3>
-                <p className="text-muted-foreground text-sm">Téléchargez mon CV complet en PDF</p>
+                <p className="text-muted-foreground text-sm">Consultez et téléchargez mon CV complet</p>
               </div>
               <a
-                href="/cv.pdf"
-                download
+                href="/cv"
+                target="_blank"
                 className="flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-lg font-semibold text-sm hover:opacity-90 transition-opacity flex-shrink-0"
               >
                 <Download size={14} />
-                Télécharger
+                Voir CV
               </a>
             </div>
           </div>
