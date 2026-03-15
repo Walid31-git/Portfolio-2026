@@ -1,9 +1,10 @@
+import Image from 'next/image'
 import Link from 'next/link'
-import { ExternalLink, Github, MapPin, Car, LayoutDashboard } from 'lucide-react'
+import { ExternalLink, Github, Car, LayoutDashboard } from 'lucide-react'
 
 const projects = [
   {
-    icon: MapPin,
+    logo: '/WherEat Logo.jpg',
     title: 'WherEat',
     subtitle: 'Application Mobile — Projet de fin de licence',
     description:
@@ -12,8 +13,8 @@ const projects = [
     github: null,
     demo: null,
     page: '/wherEat',
-    accentColor: 'text-blue-400',
-    badgeColor: 'bg-blue-400/10 border-blue-400/20 text-blue-400',
+    accentColor: 'text-orange-400',
+    badgeColor: 'bg-orange-400/10 border-orange-400/20 text-orange-400',
   },
   {
     icon: Car,
@@ -60,7 +61,6 @@ export default function Projects() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {projects.map((project) => {
-            const Icon = project.icon
             return (
               <article
                 key={project.title}
@@ -71,7 +71,19 @@ export default function Projects() {
                   <div
                     className={`w-12 h-12 rounded-xl flex items-center justify-center ${project.badgeColor} border`}
                   >
-                    <Icon size={22} />
+                    {project.logo ? (
+                      <Image
+                        src={project.logo}
+                        alt={`${project.title} logo`}
+                        width={28}
+                        height={28}
+                        className="rounded-lg"
+                      />
+                    ) : (
+                      <div className="text-foreground">
+                        <Car size={22} />
+                      </div>
+                    )}
                   </div>
                   <div className="flex items-center gap-2">
                     {project.github && (
