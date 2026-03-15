@@ -1,4 +1,5 @@
 import { MapPin, ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
@@ -58,21 +59,6 @@ export default function Hero() {
               <span>Lyon, France</span>
             </div>
 
-            <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-10">
-              <a
-                href="#projets"
-                className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
-              >
-                Voir mes projets
-              </a>
-              <a
-                href="#contact"
-                className="border border-border text-foreground px-6 py-3 rounded-lg font-semibold hover:bg-card transition-colors"
-              >
-                Me contacter
-              </a>
-            </div>
-
             <div className="flex items-center gap-4 justify-center lg:justify-start">
               <a
                 href="https://github.com/Walid31-git"
@@ -105,18 +91,15 @@ export default function Hero() {
           {/* Avatar */}
           <div className="flex-shrink-0 flex flex-col items-center gap-6">
             <div className="relative">
-              <div className="w-64 h-64 rounded-2xl bg-card border border-border flex items-center justify-center overflow-hidden">
-                <span className="text-8xl font-bold text-primary/20 select-none">WA</span>
-                <div
-                  className="absolute inset-0 flex items-center justify-center"
-                  aria-hidden="true"
-                >
-                  <span className="text-8xl font-extrabold tracking-tighter text-foreground/5">
-                    WA
-                  </span>
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 h-1/2 flex items-end justify-center pb-8">
-                  <p className="text-foreground text-4xl font-extrabold tracking-widest">WA</p>
+              <div className="p-3 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent rounded-3xl shadow-xl">
+                <div className="w-64 h-64 rounded-2xl bg-card border border-border overflow-hidden shadow-lg">
+                  <Image
+                    src="/AllalWalid.jpeg"
+                    alt="Photo de Walid Allal"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
                 </div>
               </div>
               <div className="absolute -bottom-3 -right-3 bg-primary text-primary-foreground px-3 py-1.5 rounded-lg text-xs font-bold shadow-lg">
@@ -124,17 +107,6 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Tech badges */}
-            <div className="flex flex-wrap gap-2 max-w-[260px] justify-center">
-              {['Angular', 'Spring Boot', 'TypeScript', 'Flutter', 'PHP'].map((tech) => (
-                <span
-                  key={tech}
-                  className="bg-secondary border border-border text-foreground text-xs px-3 py-1 rounded-full font-medium"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
           </div>
         </div>
 

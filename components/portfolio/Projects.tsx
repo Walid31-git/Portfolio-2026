@@ -30,16 +30,17 @@ const projects = [
     badgeColor: 'bg-emerald-400/10 border-emerald-400/20 text-emerald-400',
   },
   {
-    icon: LayoutDashboard,
-    title: 'SaaS Platform',
-    subtitle: 'Application SaaS — TypeScript',
+    logo: '/Dashboard STX.jpeg',
+    title: 'STX Tracker',
+    subtitle: 'SaaS — Analytics Telegram',
     description:
-      'Plateforme SaaS entièrement développée en TypeScript. Projet personnel démontrant la maîtrise des architectures modernes, de la gestion multi-tenant, et des bonnes pratiques du développement full stack en TypeScript.',
-    tags: ['TypeScript', 'Node.js', 'React', 'PostgreSQL'],
-    github: null,
+      "STX Tracker est un SaaS 100% fonctionnel pour monitorer et optimiser les canaux Telegram. Il calcule le taux de conversion public→privé, identifie les points de friction, et transforme l'audience en tunnel de vente mesurable.",
+    tags: ['TypeScript', 'Next.js', 'Telegram API', 'Supabase', 'Tailwind'],
+    github: 'https://lnkd.in/dR64b8UB',
     demo: null,
-    accentColor: 'text-primary',
-    badgeColor: 'bg-primary/10 border-primary/20 text-primary',
+    page: '/stx-tracker',
+    accentColor: 'text-cyan-400',
+    badgeColor: 'bg-cyan-400/10 border-cyan-400/20 text-cyan-400',
   },
 ]
 

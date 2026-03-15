@@ -16,7 +16,7 @@ const timeline = [
     title: 'Bachelor 2 BDEV — IPI Lyon',
     subtitle: 'Développement web et logiciel',
     description:
-      'Consolidation des compétences en développement full stack et approfondissement des technologies web modernes.',
+      'Consolidation des compétences en développement full stack et approfondissement des technologies web modernes. Stage de fin d\'études réalisé.',
     highlight: false,
   },
   {
@@ -25,7 +25,7 @@ const timeline = [
     title: 'Licence Informatique',
     subtitle: "Université des Sciences et de la Technologie d'Oran",
     description:
-      'Spécialité Systèmes informatiques, filière Informatique. Solide base en algorithmique, systèmes et réseaux.',
+      'Spécialité Systèmes informatiques, filière Informatique. Solide base en algorithmique, systèmes et réseaux. Stage de fin d\'études de 6 mois effectué chez AdexCloud.',
     highlight: false,
   },
 ]
