@@ -154,7 +154,7 @@ const CVDocument = () => (
         <View style={styles.experienceItem}>
           <Text style={styles.jobTitle}>3ème année CDEV — IPI Lyon</Text>
           <Text style={styles.jobSubtitle}>Institut Polytechnique de Lyon</Text>
-          <Text style={styles.jobPeriod}>2023 - 2026</Text>
+          <Text style={styles.jobPeriod}>2025 - 2026</Text>
           <Text style={styles.text}>Lyon, France</Text>
           <Text style={styles.text}>
             Formation intensive en développement logiciel avec spécialisation en cybersécurité.
@@ -167,7 +167,7 @@ const CVDocument = () => (
         <View style={styles.experienceItem}>
           <Text style={styles.jobTitle}>2ème année CDEV — IPI Lyon</Text>
           <Text style={styles.jobSubtitle}>Institut Polytechnique de Lyon</Text>
-          <Text style={styles.jobPeriod}>2022 - 2023</Text>
+          <Text style={styles.jobPeriod}>2024 - 2025</Text>
           <Text style={styles.text}>Lyon, France</Text>
           <Text style={styles.text}>
             Consolidation des bases en programmation et découverte des technologies web modernes.
@@ -176,18 +176,18 @@ const CVDocument = () => (
           </Text>
         </View>
 
-        <View style={styles.experienceItem}>
-          <Text style={styles.jobTitle}>1ère année CDEV — IPI Lyon</Text>
-          <Text style={styles.jobSubtitle}>Institut Polytechnique de Lyon</Text>
-          <Text style={styles.jobPeriod}>2021 - 2022</Text>
-          <Text style={styles.text}>Lyon, France</Text>
-          <Text style={styles.text}>
-            Découverte de la programmation avec focus sur les langages fondamentaux.
-            Introduction aux concepts de l'informatique et aux bases de données.
-            Développement de la logique algorithmique et des compétences en résolution de problèmes.
-          </Text>
+          <View style={styles.experienceItem}>
+            <Text style={styles.jobTitle}>Licence Systeme Informatique USTO</Text>
+            <Text style={styles.jobSubtitle}>Université des sciences et de la technologie d'Oran</Text>
+            <Text style={styles.jobPeriod}>2021 - 2024</Text>
+            <Text style={styles.text}>Oran, Algérie</Text>
+            <Text style={styles.text}>
+            Maîtrise de l'algorithmique et développement avancé en programmation orientée objet.
+            Étude approfondie des architectures réseaux, des systèmes d'exploitation et des bases de données.
+            Modélisation de systèmes d'information et réalisation de projets logiciels complets.
+            </Text>
+          </View>
         </View>
-      </View>
 
       {/* Compétences */}
       <View style={styles.section}>
