@@ -48,8 +48,7 @@ export default function Hero() {
             </p>
 
             <p className="text-muted-foreground leading-relaxed max-w-xl mb-4 text-balance">
-              Actuellement en 3ème année de Bachelor à l'IPI Lyon et en alternance chez{' '}
-              <span className="text-foreground font-semibold">OUISOF</span>, je me prépare à un Master en Chefferie de Projet Informatique pour la rentrée 2026. Je recherche une alternance de 24 mois pour allier expertise technique et pilotage de projets complexes.
+              Actuellement en 3ème année de Bachelor à l'IPI Lyon et en alternance chez OUISOF, je me prépare à un Master en Chefferie de Projet Informatique pour la rentrée 2026. Je recherche une alternance de 24 mois pour allier expertise technique et pilotage de projets complexes.
             </p>
 
             <div className="flex items-center gap-2 text-muted-foreground text-sm mb-10 justify-center lg:justify-start">

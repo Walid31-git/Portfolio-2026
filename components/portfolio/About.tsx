@@ -46,8 +46,8 @@ export default function About() {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 Je suis <span className="text-foreground font-semibold">Walid Allal</span>,
-                développeur Full Stack & futur Chef de Projet Informatique. Actuellement en 3ème année de Bachelor à l'IPI Lyon et en alternance chez{' '}
-                <span className="text-foreground font-semibold">OUISOF</span>, je me prépare à un
+                développeur Full Stack & futur Chef de Projet Informatique. Actuellement en 3ème année de Bachelor à l'IPI Lyon et en alternance chez
+                OUISOF, je me prépare à un
                 Master en Chefferie de Projet pour la rentrée 2026.
               </p>
               <p>
@@ -57,8 +57,7 @@ export default function About() {
                 des projets complexes avec une vision globale et pragmatique.
               </p>
               <p>
-                J'accorde une grande importance au{' '}
-                <span className="text-foreground font-semibold">code propre</span>,
+                J'accorde une grande importance au code propre,
                 à l'autonomie, à l'adaptabilité et au leadership d'équipe. En quête de
                 nouvelles bonnes pratiques en gestion de projet et développement logiciel.
               </p>
