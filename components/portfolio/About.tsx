@@ -7,7 +7,7 @@ const timeline = [
     title: '3ème année CDEV — IPI Lyon',
     subtitle: 'Alternance chez OUISOF',
     description:
-      'Poursuite des études en développement logiciel et web en alternance, après un stage de 4 mois qui a conduit à un recrutement.',
+      'Développement et optimisation d\'applications critiques sous Oracle APEX et PL/SQL. Maintenance corrective et évolutive d\'architectures complexes et intégration de fonctionnalités stratégiques. Gestion du support utilisateur avancé et résolution d\'anomalies sensibles.',
     highlight: true,
   },
   {
@@ -46,21 +46,21 @@ export default function About() {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 Je suis <span className="text-foreground font-semibold">Walid Allal</span>,
-                développeur Full Stack passionné, actuellement en 3ème année CDEV à l'IPI Lyon.
-                Je combine rigueur académique et expérience terrain au sein de{' '}
-                <span className="text-foreground font-semibold">OUISOF</span> où j'évolue en
-                alternance.
+                développeur Full Stack & futur Chef de Projet Informatique. Actuellement en 3ème année de Bachelor à l'IPI Lyon et en alternance chez{' '}
+                <span className="text-foreground font-semibold">OUISOF</span>, je me prépare à un
+                Master en Chefferie de Projet pour la rentrée 2026.
               </p>
               <p>
+                Je combine rigueur académique, expertise technique et leadership de projet.
                 Mon parcours mêle une formation universitaire algérienne solide et une
-                spécialisation française en développement moderne, me permettant d'aborder
-                des projets avec une vision globale et pragmatique.
+                spécialisation française en développement moderne, me permettant de piloter
+                des projets complexes avec une vision globale et pragmatique.
               </p>
               <p>
                 J'accorde une grande importance au{' '}
-                <span className="text-foreground font-semibold">code propre</span>, à
-                l'adaptabilité et à l'apprentissage continu. Autonome et rigoureux, je suis
-                toujours en quête de nouvelles bonnes pratiques à appliquer.
+                <span className="text-foreground font-semibold">code propre</span>,
+                à l'autonomie, à l'adaptabilité et au leadership d'équipe. En quête de
+                nouvelles bonnes pratiques en gestion de projet et développement logiciel.
               </p>
             </div>
 

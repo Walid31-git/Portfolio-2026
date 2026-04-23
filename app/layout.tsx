@@ -1,24 +1,24 @@
 import type { Metadata } from 'next'
-import { Space_Grotesk, Inter } from 'next/font/google'
+import { Poppins, Plus_Jakarta_Sans } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const spaceGrotesk = Space_Grotesk({
+const poppins = Poppins({
   subsets: ['latin'],
   variable: '--font-sans',
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['300', '400', '500', '600', '700', '800'],
 })
 
-const inter = Inter({
+const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
   variable: '--font-body',
-  weight: ['400', '500', '600'],
+  weight: ['400', '500', '600', '700'],
 })
 
 export const metadata: Metadata = {
-  title: 'Walid Allal — Développeur Full Stack',
+  title: 'Walid Allal — Développeur Full Stack & Chef de Projet',
   description:
-    'Portfolio de Walid Allal, développeur Full Stack en 3ème année CDEV à l\'IPI Lyon, en alternance chez OUISOF. Angular, Spring Boot, TypeScript, Flutter et plus.',
+    'Portfolio de Walid Allal, développeur Full Stack & futur Chef de Projet Informatique en 3ème année de Bachelor à l\'IPI Lyon, en alternance chez OUISOF. NextJs, Angular, Spring Boot, Oracle APEX, Flutter et plus.',
   generator: 'v0.app',
 }
 
@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className="scroll-smooth">
-      <body className={`${spaceGrotesk.variable} ${inter.variable} font-sans antialiased bg-background text-foreground`}>
+      <body className={`${poppins.variable} ${plusJakartaSans.variable} font-sans antialiased bg-background text-foreground`}>
         {children}
         <Analytics />
       </body>

@@ -4,11 +4,24 @@ import { ExternalLink, Github, Car, LayoutDashboard } from 'lucide-react'
 
 const projects = [
   {
+    logo: '/Dashboard STX.jpeg',
+    title: 'STX Tracker',
+    subtitle: 'SaaS — Chef de Projet & Développeur Lead',
+    description:
+      'SaaS d\'Intelligence Marketing transformant les données Telegram en indicateurs business (KPI). En tant que Chef de Projet & Développeur Lead, j\'ai piloté une équipe de 2 mois pour construire cette plateforme 100% fonctionnelle. Architecture complète avec monitoring, optimisation des canaux et tunnel de vente mesurable.',
+    tags: ['TypeScript', 'Next.js', 'Supabase', 'Tailwind CSS'],
+    github: 'https://github.com/Walid31-git',
+    demo: null,
+    page: '/stx-tracker',
+    accentColor: 'text-cyan-400',
+    badgeColor: 'bg-cyan-400/10 border-cyan-400/20 text-cyan-400',
+  },
+  {
     logo: '/WherEat Logo.jpg',
     title: 'WherEat',
     subtitle: 'Application Mobile — Projet de fin de licence',
     description:
-      'Application mobile développée pour le projet de fin d\'études. Elle intègre une carte interactive permettant de découvrir des restaurants à proximité, consulter leurs informations, les noter, et obtenir un itinéraire pour s\'y rendre. Un vrai projet de A à Z.',
+      'Développement complet d\'une application Android/iOS via Flutter en utilisant une méthodologie Agile. Architecture Full Stack avec backend fonctionnel et rédaction technique sous LaTeX. Intégration d\'une carte interactive, système de notation et itinéraire vers les restaurants.',
     tags: ['Flutter', 'Dart', 'PHP', 'Google Maps API', 'MySQL'],
     github: null,
     demo: null,
@@ -28,19 +41,6 @@ const projects = [
     page: '/carocar',
     accentColor: 'text-emerald-400',
     badgeColor: 'bg-emerald-400/10 border-emerald-400/20 text-emerald-400',
-  },
-  {
-    logo: '/Dashboard STX.jpeg',
-    title: 'STX Tracker',
-    subtitle: 'SaaS — Analytics Telegram',
-    description:
-      "STX Tracker est un SaaS 100% fonctionnel pour monitorer et optimiser les canaux Telegram. Il calcule le taux de conversion public→privé, identifie les points de friction, et transforme l'audience en tunnel de vente mesurable.",
-    tags: ['TypeScript', 'Next.js', 'Telegram API', 'Supabase', 'Tailwind'],
-    github: 'https://lnkd.in/dR64b8UB',
-    demo: null,
-    page: '/stx-tracker',
-    accentColor: 'text-cyan-400',
-    badgeColor: 'bg-cyan-400/10 border-cyan-400/20 text-cyan-400',
   },
 ]
 

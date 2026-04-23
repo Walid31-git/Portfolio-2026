@@ -256,7 +256,7 @@ export default function CVClient() {
               </div>
               <PDFDownloadLink
                 document={<CVDocument />}
-                fileName="CV_Walid_Allal.pdf"
+                fileName="CV_ALTERNANCE2026.pdf"
                 className="bg-primary-foreground text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary-foreground/90 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center gap-2"
               >
                 {({ loading }) => (

@@ -43,15 +43,13 @@ export default function Hero() {
             </h1>
 
             <p className="text-xl md:text-2xl text-muted-foreground font-medium mb-6">
-              Développeur{' '}
-              <span className="text-foreground font-semibold">Full Stack</span>
+              Développeur Full Stack &{' '}
+              <span className="text-foreground font-semibold">Futur Chef de Projet Informatique</span>
             </p>
 
             <p className="text-muted-foreground leading-relaxed max-w-xl mb-4 text-balance">
-              3ème année CDEV à l'IPI Lyon, en alternance chez{' '}
-              <span className="text-foreground font-semibold">OUISOF</span>.
-              Passionné par le développement web moderne, le code propre et les
-              bonnes pratiques.
+              Actuellement en 3ème année de Bachelor à l'IPI Lyon et en alternance chez{' '}
+              <span className="text-foreground font-semibold">OUISOF</span>, je me prépare à un Master en Chefferie de Projet Informatique pour la rentrée 2026. Je recherche une alternance de 24 mois pour allier expertise technique et pilotage de projets complexes.
             </p>
 
             <div className="flex items-center gap-2 text-muted-foreground text-sm mb-10 justify-center lg:justify-start">

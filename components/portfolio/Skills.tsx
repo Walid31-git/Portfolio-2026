@@ -1,5 +1,13 @@
 const skillGroups = [
   {
+    category: 'Management',
+    skills: ['Agile (Scrum/Kanban)', 'Pilotage de projet', 'KPI', 'Roadmap', 'Jira', 'Notion'],
+  },
+  {
+    category: 'Technique',
+    skills: ['Angular', 'Spring Boot', 'Oracle APEX', 'PL/SQL', 'Flutter', 'Next.js'],
+  },
+  {
     category: 'Langages',
     skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C#', 'C++', 'Dart', 'Kotlin'],
   },
@@ -22,18 +30,6 @@ const skillGroups = [
   {
     category: 'Design & Multimédia',
     skills: ['Adobe Photoshop', 'Illustrator', 'Premiere Pro', 'Figma', 'Blender'],
-  },
-  {
-    category: 'Marketing',
-    skills: ['Meta Ads', 'Marketing Digital', 'Google Ads', 'SEO', 'Analytics'],
-  },
-  {
-    category: 'Automatisation & Workflow',
-    skills: ['N8N', 'Zapier', 'Make.com', 'IFTTT'],
-  },
-  {
-    category: 'Mobile & Développement d\'Apps',
-    skills: ['Flutter', 'React Native', 'Ionic'],
   },
 ]
 
